@@ -1,3 +1,3 @@
 # Lernperiode-1
 mein erstes Projekt in der ILA,
-Ich will ein Programm Schreiben mit dem man mit seiner Grösse und seinem Gewicht die Prfekte Skateboard grösse für sich herausfinden kann.
+Ich will ein Programm schreiben, mit dem man mit seiner Grösse und seinem Gewicht die Perfekte Skateboard Grösse für sich herausfinden kann.
