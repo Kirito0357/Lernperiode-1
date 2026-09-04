@@ -12,7 +12,7 @@ Heute habe ich mit meinem Programm für den Skateboard Rechner angefangen. Ich h
 ## 04.09.2026
 - [x] Dem Benutzer mögliche Varianten für ein selbst zusammengestelltes Skateboard geben
 - [ ] Die Kosten für das Skateboard Zeigen und was die Komponenten des Boards genau machen
-- [ ] Verschiedene Räder für das Board je nach Fahrtstil vorschlagen
+- [x] Verschiedene Räder für das Board je nach Fahrtstil vorschlagen
 
 Heute habe ich dem Benutzer mögliche Varianten vorgegeben für Räder und Achsen, und wenn er etwas eingibt, was nicht aufgefordert ist gibt es eine fehleranzeige an und fragt so lange bis der Benutzer das richtige eingibt. Ich habe etwa eine Stunde versucht den richtigen Code zu schreiben.
 
