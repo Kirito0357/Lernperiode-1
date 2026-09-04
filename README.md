@@ -9,7 +9,15 @@ Ich will ein Programm schreiben, mit dem man mit seiner Grösse und seinem Gewic
 
 Heute habe ich mit meinem Programm für den Skateboard Rechner angefangen. Ich habe zuerst Programmiert dass das Programm den Benutzer fragt ob er wissen will was für eine Skateboard Grösse er braucht. Danach fragt es ihn welche Schuhgrösse er hat. Danach habe ich 50 Zeilen nur mit If Szenarios geschrieben und am ende noch einen Abschluss geschrieben.
 
-## 06.09.2026
+## 04.09.2026
 - [ ] Dem Benutzer mögliche Varianten für ein selbst zusammengestelltes Skateboard geben
 - [ ] Die Kosten für das Skateboard Zeigen und was die Komponenten des Boards genau machen
 - [ ] Verschiedene Räder für das Board je nach Fahrtstil vorschlagen
+
+Heute habe ich dem Benutzer mögliche Varianten vorgegeben für Räder und Achsen, und wenn er etwas eingibt, was nicht aufgefordert ist gibt es eine fehleranzeige an und fragt so lange bis der Benutzer das richtige eingibt. Ich habe etwa eine Stunde versucht den richtigen Code zu schreiben.
+
+## 11.09.2026
+- [ ] Den Preis für die Konfiguration anzeigen (fragen ob hochwertig etc.)
+- [ ] Programm durchschauen und Verbesserungen vornehmen (nicht effizienter Code)
+- [ ] Ideen für eine Erweiterung des Programms sammeln
+- [ ] Erweiterungen aufschreiben und Aufteilen in Arbeitsstunden in der darauffolgenden Woche
