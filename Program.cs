@@ -1,4 +1,4 @@
-﻿// Grössenrechnung
+// Grössenrechnung
 using System.ComponentModel.Design;
 using System.Globalization;
 Console.WriteLine("Herzlich Willkomen");
@@ -19,57 +19,38 @@ else
 Console.WriteLine("Was ist ihre Schuhgrösse?");
 double SG = System.Convert.ToDouble(Console.ReadLine());
 if (SG >= 23 && SG <= 55)
-{
     Console.WriteLine("Okay");
-}
-else 
-{
-    Console.WriteLine("Keine Berechnungen verfügbar");
-}
 
-if  (SG == 23)
-{
+else
+    Console.WriteLine("Keine Berechnungen verfügbar");
+
+
+if (SG == 23)
     Console.WriteLine("optimale Boardbreite = 6.5");
-}
-if (SG >= 24 && SG <=  25)
-{
+
+if (SG >= 24 && SG <= 25)
     Console.WriteLine("optimale Boardbreite = 6.75");
-}
 
 if (SG >= 26 && SG <= 28)
-{
     Console.WriteLine("Optimale Boardgrösse = 6.825");
-}
 
 if (SG == 28)
-{
     Console.WriteLine("Optimale Boardgrösse = 7.0");
-}
 
 if (SG == 29)
-{
     Console.WriteLine("Optimale Boardgröse = 7.125");
-}
 
 if (SG == 30)
-{
     Console.WriteLine("Optimale Boardgrösse = 7.25");
-}
 
 if (SG == 31)
-{
     Console.WriteLine("Optimale Boardgrösse = 7.375");
-}
 
-if(SG == 32)
-{
+if (SG == 32)
     Console.WriteLine("Optimale Boardgrösse = 7.5");
-}
 
 if (SG == 33 && SG == 34)
-{
     Console.WriteLine("Optimale Boardgrösse = 7.75");
-}
 
 if (SG >= 35 && SG <= 42)
 {
@@ -81,7 +62,7 @@ if (SG >= 43 && SG <= 55)
     Console.WriteLine("Optimale Deckgrösse = 8.25");
 }
 Console.WriteLine("Dies ist nur eine Empfehlung");
-Console.WriteLine("Man kann auch ein Board nehmen dass 0.125 bis 0.25 grösser oder kleiner ist als die Optimale Grösse ist");
+Console.WriteLine("Man kann auch ein Board nehmen das 0.125 bis 0.25 grösser oder kleiner ist als die Optimale Grösse ist");
 
 
 //Skateboard Konfiguration
@@ -106,53 +87,23 @@ while (A2 != "ja" && A2 != "nein")
 }
 //Räder
 
-Console.WriteLine("Welche Räder möchtest du?");
-Console.WriteLine("");
-
-Console.WriteLine("1. Weiche Cruiser Rollen (Härte = 78A)");
-Console.WriteLine("(sind sehr weich, sehr angenehm auf unebenen Strassen, viel Grip aber schlecht für Tricks)");
-Console.WriteLine ("");
-
-Console.WriteLine("2. Filmrollen (Härte = 80A)");
-Console.WriteLine("(sehr komfortabel und leise, gut für lange Strecken)");
-Console.WriteLine("");
-
-Console.WriteLine("3. Cruiser Rollen (Härte = 83A)");
-Console.WriteLine("(verbindet Komfort und Geschindigkeit, viel Grip, aber etwas wendiger)");
-Console.WriteLine("");
-
-Console.WriteLine("4. Weiche Cruiser-Rollen (Härte = 85A)");
-Console.WriteLine("( etwas härter und schneller. Gut für Straße und kleinere Unebenheiten)");
-Console.WriteLine("");
-
-Console.WriteLine("5. Hybrid-Rollen (Härte = 87A)");
-Console.WriteLine("(Mischung aus weichem Fahrgefühl und besserem Slide-Verhalten. Gut zum Cruisen und für Tricks)");
-Console.WriteLine("");
-
-Console.WriteLine("6. Hybrid-/Street-Rollen (Härte = 90A)");
-Console.WriteLine("(Härter und direkter. Rollen noch recht angenehm, eignen sich aber besser für Tricks und Skateparks)");
-Console.WriteLine("");
-
-Console.WriteLine("7. Hybrid-Rollen (Härte = 95A)");
-Console.WriteLine("(Spürbar härter, dadurch leichter zu sliden. Ein guter Übergang zu klassischen Street-Rollen)");
-Console.WriteLine("");
-
-Console.WriteLine("8. Typische Street-Rollen (Härte = 99A)");
-Console.WriteLine("(Sehr verbreitete Härte. Schnell und präzise auf glattem Untergrund, gut für Ollies, Slides und Grinds)");
-Console.WriteLine("");
-
-Console.WriteLine("9. Harte Street-/Park-Rollen (Härte = 101A)");
-Console.WriteLine("(Sehr hart und schnell auf glattem Beton. Weniger Grip und unkomfortabler auf rauem Asphalt)");
-Console.WriteLine("");
-
-Console.WriteLine("10. Sehr harte Park-Rollen (Härte = 101A+)");
-Console.WriteLine("(Extrem hart, wenig Grip und besonders gut für glatte Skateparks. Auf rauem Asphalt können sie stark vibrieren)");
-Console.WriteLine("");
-
+Console.WriteLine(
+    "Welche Räder möchtest du?\n\n" +
+    "1. Weiche Cruiser Rollen (Härte = 78A) - Sehr weich, angenehm auf unebenen Straßen, viel Grip, schlecht für Tricks\n\n" +
+    "2. Filmrollen (Härte = 80A) - Sehr komfortabel und leise, gut für lange Strecken\n\n" +
+    "3. Cruiser Rollen (Härte = 83A) - Verbindet Komfort und Geschwindigkeit, viel Grip, aber etwas weniger\n\n" +
+    "4. Weiche Cruiser-Rollen (Härte = 85A) - Etwas härter und schneller, gut für Straße und kleinere Unebenheiten\n\n" +
+    "5. Hybrid-Rollen (Härte = 87A) - Weiches Fahrgefühl und besseres Slide-Verhalten, gut zum Cruisen und für Tricks\n\n" +
+    "6. Hybrid-/Street-Rollen (Härte = 90A) - Härter und direkter, gut für Tricks und Skateparks\n\n" +
+    "7. Hybrid-Rollen (Härte = 95A) - Spürbar härter, leichter zu sliden, guter Übergang zu Street-Rollen\n\n" +
+    "8. Typische Street-Rollen (Härte = 99A) - Schnell und präzise auf glattem Untergrund, gut für Ollies, Slides und Grinds\n\n" +
+    "9. Harte Street-/Park-Rollen (Härte = 101A) - Sehr hart und schnell auf glattem Beton, weniger Grip\n\n" +
+    "10. Sehr harte Park-Rollen (Härte = 101A+) - Extrem hart, wenig Grip, besonders gut für glatte Skateparks\n\n"
+);
 
 Console.WriteLine("für die gewünschten Räder die jeweilige Zahl eingeben");
 string Räder = Console.ReadLine();
-while (!int. TryParse(Räder, out int zahl) || zahl < 1 || zahl > 10)
+while (!int.TryParse(Räder, out int zahl) || zahl < 1 || zahl > 10)
 {
     Console.WriteLine("Ungültige Eingabe! Bitte eine Zahl zwischen 1 und 10 eingeben:");
     Räder = Console.ReadLine();
@@ -162,40 +113,45 @@ Console.WriteLine("");
 
 //Achsen
 
-Console.WriteLine("Welche Achsen möchtest du?");
-Console.WriteLine("");
-
-Console.WriteLine("1. Standard-Achsen");
-Console.WriteLine("(Ausgewogenes Fahrgefühl. Gut für Street und als Allround-Achse)");
-
-Console.WriteLine("2. Low-Achsen");
-Console.WriteLine("(Das Board liegt tiefer und ist stabiler. Gut für Street und Tricks)");
-Console.WriteLine("");
-
-Console.WriteLine("3. High-Achsen");
-Console.WriteLine("(Mehr Abstand zum Boden. Gut zum Cruisen, für Bowl und Rampen)");
-Console.WriteLine("");
-
-Console.WriteLine("4. Leichte Achsen");
-Console.WriteLine("(Weniger Gewicht. Das Board fühlt sich agiler an und eignet sich gut für Flip-Tricks)");
-Console.WriteLine("");
-
-Console.WriteLine("5. Breite Achsen");
-Console.WriteLine("(Mehr Stabilität und Standfläche. Gut für Bowl, Rampen und stabiles Fahren)");
-Console.WriteLine("");
-
-Console.WriteLine("6. Schmalere Achsen");
-Console.WriteLine("(Wendiger und leichter zu drehen. Gut für Street und technische Tricks)");
-Console.WriteLine("");
+Console.WriteLine(
+    "Welche Achsen möchtest du?\n\n" +
+    "1. Standard-Achsen - Ausgewogenes Fahrgefühl, gut für Street und Allround\n\n" +
+    "2. Low-Achsen - Board liegt tiefer, gut für Street und Tricks\n\n" +
+    "3. High-Achsen - Mehr Abstand zum Boden, gut zum Cruisen und für Rampen\n\n" +
+    "4. Leichte Achsen - Weniger Gewicht, gut für Flip-Tricks\n\n" +
+    "5. Breite Achsen - Mehr Stabilität und Standfläche, gut für Bowl und Rampen\n\n" +
+    "6. Schmale Achsen - Wendiger und leichter zu drehen, gut für Street und technische Tricks\n\n"
+);
 
 
 Console.WriteLine("Für die gewünschte Achse die jeweilige Zahl eingeben");
 string Achsen = Console.ReadLine();
 
-while (!int. TryParse(Achsen, out int zahl) || zahl < 1 || zahl > 10)
+while (!int.TryParse(Achsen, out int zahl) || zahl < 1 || zahl > 10)
 {
     Console.WriteLine("Ungültige Eingabe! Bitte eine Zahl zwischen 1 und 10 eingeben:");
     Achsen = Console.ReadLine();
 }
 Console.WriteLine("Okay");
 Console.WriteLine("");
+
+Console.WriteLine(
+    "Welche Qualität sollten die Teile haben?\n\n" +
+    "1. Niedrige Qualität\n\n" +
+    "2. Mittlere Qualität\n\n" +
+    "3. Hohe Qualität\n\n"
+);
+
+Console.WriteLine("Für die gewünschte Qualität die jeweilige Zahl eingeben");
+double Qualität = System.Convert.ToDouble(Console.ReadLine());
+if (Qualität == 1)
+    Console.WriteLine("Preis = 55-90Fr.");
+
+if (Qualität == 2)
+    Console.WriteLine("Preis = 95-160Fr.");
+
+if (Qualität == 3)
+    Console.WriteLine("Preis = 160-280Fr.");
+
+Console.WriteLine("Dies ist nur ein ungefährer Preis, der Preis kann je nach Marke und Grösse stark variieren");
+Console.WriteLine("Der Preis schliesst alle Komponenten ein die angegeben wurden");
