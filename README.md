@@ -11,13 +11,20 @@ Heute habe ich mit meinem Programm für den Skateboard Rechner angefangen. Ich h
 
 ## 04.09.2026
 - [x] Dem Benutzer mögliche Varianten für ein selbst zusammengestelltes Skateboard geben
-- [ ] Die Kosten für das Skateboard Zeigen und was die Komponenten des Boards genau machen
+- [x] Die Kosten für das Skateboard Zeigen und was die Komponenten des Boards genau machen
 - [x] Verschiedene Räder für das Board je nach Fahrtstil vorschlagen
 
 Heute habe ich dem Benutzer mögliche Varianten vorgegeben für Räder und Achsen, und wenn er etwas eingibt, was nicht aufgefordert ist gibt es eine fehleranzeige an und fragt so lange bis der Benutzer das richtige eingibt. Ich habe etwa eine Stunde versucht den richtigen Code zu schreiben.
 
 ## 11.09.2026
-- [ ] Den Preis für die Konfiguration anzeigen (fragen ob hochwertig etc.)
-- [ ] Programm durchschauen und Verbesserungen vornehmen (nicht effizienter Code)
+- [x] Den Preis für die Konfiguration anzeigen (fragen ob hochwertig etc.)
+- [x] Programm durchschauen und Verbesserungen vornehmen (nicht effizienter Code)
 - [ ] Ideen für eine Erweiterung des Programms sammeln
 - [ ] Erweiterungen aufschreiben und Aufteilen in Arbeitsstunden in der darauffolgenden Woche
+
+Heute habe ich das Programm überarbeitet und verkürzt, danach habe ich keine anderen Ideen gefunden um das Programm zu erweitern. Danach habe ich ein anderes Programm angefangen bei dem ich ein Menü machen will mit einer Auswahl von verschiedenen Waffen und Rüstungen aus dem Game Elden Ring um ein Build zusammenzusetzen.
+
+## 18.09.2026
+- [ ] Überkategorien der Waffen als Menü erstellen
+- [ ] Unterkategorien Menü erstellen
+- [ ] Unterkategorien Menü fertigstellen
